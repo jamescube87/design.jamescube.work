@@ -4,7 +4,7 @@
   {{ partial "breadcrumb.html" . }}
 
   <div class="columns-1 sm:columns-2 md:columns-3 lg:columns-4 gap-4">
-    {{ range .Pages }}
+    {{ range .Pages.ByWeight }}
       {{ $cover := "" }}
 
       {{ if .Params.featured_image }}

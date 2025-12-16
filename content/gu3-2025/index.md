@@ -2,4 +2,5 @@
 date: 2025-12-16
 title: "구로3동성당 2025 홍보물"
 featured_image: "0920_028_GURO3_POSTER_16_9.jpg"
+weight: 1
 ---
