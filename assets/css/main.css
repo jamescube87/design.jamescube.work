@@ -1,0 +1,34 @@
+/* 전체 배경 */
+html,
+body {
+  background-color: #000000; /* 원하는 색 */
+}
+
+/* 메인 컨텐츠 영역 */
+main {
+  background-color: transparent;
+}
+
+/* 카드/앨범 썸네일 배경 */
+article {
+  background-color: #111111;
+}
+
+header div a {
+  color: white;
+  background-color: #009E64;
+}
+
+nav {
+    color: #555;
+}
+
+nav a {
+    color: #aaa;
+    text-transform: uppercase;
+}
+
+h1 {
+    color: white;
+}
+
