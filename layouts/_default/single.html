@@ -11,7 +11,7 @@
 
         {{ $thumb := "" }}
         {{ if eq $res.MediaType.MainType "image" }}
-          {{ $thumb = $res.Filter (slice images.AutoOrient (images.Process "fit 600x600")) }}
+          {{ $thumb = $res.Filter (slice images.AutoOrient (images.Process "fit 800x800")) }}
           <a href="{{ $res.RelPermalink }}"
              class="block rounded overflow-hidden"
              data-lg-size="{{ $res.Width }}-{{ $res.Height }}"
