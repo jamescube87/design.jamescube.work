@@ -16,6 +16,13 @@ article {
 
 header div a {
   color: white;
+}
+
+header div .logo {
+  background-color: #006B42;
+}
+
+header div .site-name {
   background-color: #009E64;
 }
 
