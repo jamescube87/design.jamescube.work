@@ -1,0 +1,10 @@
+# Hugo build output
+/public/
+/resources/
+
+# Hugo cache
+.hugo_build.lock
+
+# Node / Go (혹시 모듈 쓰게 될 경우 대비)
+node_modules/
+go.sum
