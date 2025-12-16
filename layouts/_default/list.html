@@ -10,7 +10,7 @@
       {{ if .Params.featured_image }}
         {{ $coverRes := .Resources.GetMatch .Params.featured_image }}
         {{ if and $coverRes (eq $coverRes.MediaType.MainType "image") }}
-          {{ $thumb := $coverRes.Filter (slice images.AutoOrient (images.Process "fit 800x800 q90")) }}
+          {{ $thumb := $coverRes.Filter (slice images.AutoOrient (images.Process "fit 1000x1000 q90")) }}
           {{ $cover = $thumb.RelPermalink }}
         {{ end }}
       {{ end }}
