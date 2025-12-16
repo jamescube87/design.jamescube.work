@@ -1,7 +1,7 @@
 ---
-title: "2025"
+title: "2025년 홍보물"
 date: 2025-12-16T00:00:00+09:00
-description: "고양이 앨범입니다."
+description: "2025년 홍보물"
 
 resources:
   - src: feature.jpg
